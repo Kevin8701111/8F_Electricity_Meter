@@ -7,9 +7,9 @@ EnergyMonitor emon3;
 void setup() 
 {
     Serial.begin(9600);
-    emon1.current(0, 20);  //Current: input pin, calibration.
-    emon2.current(1, 20);  //Current: input pin, calibration.
-    emon3.current(2, 20);  //Current: input pin, calibration.
+    emon1.current(0, 42);  //Current: input pin, calibration.
+    emon2.current(1, 43);  //Current: input pin, calibration.
+    emon3.current(2, 44);  //Current: input pin, calibration.
 }
 
 void loop() 
